@@ -473,25 +473,16 @@ const HomePage = () => {
                     {/*begin::Feature post*/}
                     <div className='h-100 d-flex flex-column justify-content-between pe-lg-6 mb-lg-0 mb-10'>
                       {/*begin::Video*/}
-                      <div className='mb-3'>
-                        <iframe
-                          className='embed-responsive-item card-rounded h-275px w-100'
-                          src='https://www.youtube.com/embed/qIHXpnASPAA'
-                          // allowFullScreen='allowfullscreen'
-                        />
-                      </div>
+                      <div className='mb-3'></div>
                       {/*end::Video*/}
                       {/*begin::Body*/}
                       <div className='mb-5'>
                         {/*begin::Title*/}
-                        <a
-                          href='#'
-                          className='fs-2 text-dark fw-bolder text-hover-primary text-dark lh-base'
-                        >
+                        <p className='fs-2 text-dark fw-bolder text-hover-primary text-dark lh-base'>
                           Metronic Admin - How To Get Started Tutorial.
                           <br />
                           Create easy customizable applications
-                        </a>
+                        </p>
                         {/*end::Title*/}
                         {/*begin::Text*/}
                         <div className='fw-bold fs-5 text-gray-600 text-dark mt-4'>
@@ -544,13 +535,10 @@ const HomePage = () => {
                       {/*begin::Body*/}
                       <div className='mb-6'>
                         {/*begin::Title*/}
-                        <a
-                          href='#'
-                          className='fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary'
-                        >
+                        <p className='fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary'>
                           Metronic Admin - How To Get Started Tutorial. Create customizable
                           applications
-                        </a>
+                        </p>
                         {/*end::Title*/}
                         {/*begin::Text*/}
                         <div className='fw-bold fs-5 mt-4 text-gray-600 text-dark'>
@@ -595,12 +583,9 @@ const HomePage = () => {
                       {/*begin::Body*/}
                       <div className='mb-6'>
                         {/*begin::Title*/}
-                        <a
-                          href='#'
-                          className='fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary'
-                        >
+                        <p className='fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary'>
                           Metronic Admin - How To Get Started Tutorial.
-                        </a>
+                        </p>
                         {/*end::Title*/}
                         {/*begin::Text*/}
                         <div className='fw-bold fs-5 mt-4 text-gray-600 text-dark'>
@@ -644,12 +629,9 @@ const HomePage = () => {
                       {/*begin::Body*/}
                       <div className='mb-6'>
                         {/*begin::Title*/}
-                        <a
-                          href='#'
-                          className='fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary'
-                        >
+                        <p className='fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary'>
                           Metronic Admin - How To Get Started Tutorial. Create best applications
-                        </a>
+                        </p>
                         {/*end::Title*/}
                         {/*begin::Text*/}
                         <div className='fw-bold fs-5 mt-4 text-gray-600 text-dark'>
@@ -702,9 +684,7 @@ const HomePage = () => {
                   <h3 className='text-black'>Video Tutorials</h3>
                   {/*end::Title*/}
                   {/*begin::Link*/}
-                  <a href='#' className='fs-6 fw-bold link-primary'>
-                    View All Videos
-                  </a>
+                  <p className='fs-6 fw-bold link-primary'>View All Videos</p>
                   {/*end::Link*/}
                 </div>
                 {/*end::Content*/}
@@ -890,9 +870,7 @@ const HomePage = () => {
                   <h3 className='text-black'>Hottest Bundles</h3>
                   {/*end::Title*/}
                   {/*begin::Link*/}
-                  <a href='#' className='fs-6 fw-bold link-primary'>
-                    View All Offers
-                  </a>
+                  <p className='fs-6 fw-bold link-primary'>View All Offers</p>
                   {/*end::Link*/}
                 </div>
                 {/*end::Content*/}
@@ -927,12 +905,9 @@ const HomePage = () => {
                       {/*begin::Body*/}
                       <div className='mt-5'>
                         {/*begin::Title*/}
-                        <a
-                          href='#'
-                          className='fs-4 text-dark fw-bolder text-hover-primary text-dark lh-base'
-                        >
+                        <p className='fs-4 text-dark fw-bolder text-hover-primary text-dark lh-base'>
                           25 Products Mega Bundle with 50% off discount amazing
-                        </a>
+                        </p>
                         {/*end::Title*/}
                         {/*begin::Text*/}
                         <div className='fw-bold fs-5 text-gray-600 text-dark mt-3'>
@@ -947,9 +922,7 @@ const HomePage = () => {
                           </span>
                           {/*end::Label*/}
                           {/*begin::Action*/}
-                          <a href='#' className='btn btn-primary'>
-                            Purchase
-                          </a>
+                          <p className='btn btn-primary'>Purchase</p>
                           {/*end::Action*/}
                         </div>
                         {/*end::Text*/}
@@ -985,12 +958,9 @@ const HomePage = () => {
                       {/*begin::Body*/}
                       <div className='mt-5'>
                         {/*begin::Title*/}
-                        <a
-                          href='#'
-                          className='fs-4 text-dark fw-bolder text-hover-primary text-dark lh-base'
-                        >
+                        <p className='fs-4 text-dark fw-bolder text-hover-primary text-dark lh-base'>
                           25 Products Mega Bundle with 50% off discount amazing
-                        </a>
+                        </p>
                         {/*end::Title*/}
                         {/*begin::Text*/}
                         <div className='fw-bold fs-5 text-gray-600 text-dark mt-3'>
@@ -1005,9 +975,7 @@ const HomePage = () => {
                           </span>
                           {/*end::Label*/}
                           {/*begin::Action*/}
-                          <a href='#' className='btn btn-primary'>
-                            Purchase
-                          </a>
+                          <p className='btn btn-primary'>Purchase</p>
                           {/*end::Action*/}
                         </div>
                         {/*end::Text*/}
@@ -1043,12 +1011,9 @@ const HomePage = () => {
                       {/*begin::Body*/}
                       <div className='mt-5'>
                         {/*begin::Title*/}
-                        <a
-                          href='#'
-                          className='fs-4 text-dark fw-bolder text-hover-primary text-dark lh-base'
-                        >
+                        <p className='fs-4 text-dark fw-bolder text-hover-primary text-dark lh-base'>
                           25 Products Mega Bundle with 50% off discount amazing
-                        </a>
+                        </p>
                         {/*end::Title*/}
                         {/*begin::Text*/}
                         <div className='fw-bold fs-5 text-gray-600 text-dark mt-3'>
@@ -1063,9 +1028,7 @@ const HomePage = () => {
                           </span>
                           {/*end::Label*/}
                           {/*begin::Action*/}
-                          <a href='#' className='btn btn-primary'>
-                            Purchase
-                          </a>
+                          <p className='btn btn-primary'>Purchase</p>
                           {/*end::Action*/}
                         </div>
                         {/*end::Text*/}
@@ -1089,9 +1052,7 @@ const HomePage = () => {
                     <h3 className='text-black'>Latest Instagram Posts</h3>
                     {/*end::Title*/}
                     {/*begin::Link*/}
-                    <a href='#' className='fs-6 fw-bold link-primary'>
-                      View Instagram
-                    </a>
+                    <p className='fs-6 fw-bold link-primary'>View Instagram</p>
                     {/*end::Link*/}
                   </div>
                   {/*end::Content*/}
@@ -1171,7 +1132,7 @@ const HomePage = () => {
                   {/*begin::Col*/}
                   <div className='col'>
                     {/*begin::Overlay*/}
-                    <a className='d-block overlay' data-fslightbox='lightbox-hot-sales' href=''>
+                    <p className='d-block overlay' data-fslightbox='lightbox-hot-sales'>
                       {/*begin::Image*/}
                       <div
                         className='overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px'
@@ -1183,7 +1144,7 @@ const HomePage = () => {
                         <i className='bi bi-eye-fill fs-2x text-white' />
                       </div>
                       {/*end::Action*/}
-                    </a>
+                    </p>
                   </div>
                   {/*end::Col*/}
                   {/*begin::Col*/}
